@@ -1,5 +1,6 @@
 import React from 'react'
 import "./StainedGlass.scss"
+import noomCafe from "../../noomcafe.png"
 
 export default function StainedGlass() {
   return (
@@ -26,7 +27,7 @@ export default function StainedGlass() {
             <p>Github</p>
           </div>
         </div>
-        <div className="col-3">Lorem ipsum dolor sit amet.</div>
+        <div className="col-3"><img src={noomCafe} alt="" /></div>
       </div>
     </div>
   )
