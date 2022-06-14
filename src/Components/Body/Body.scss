@@ -1,0 +1,13 @@
+.body-container{
+  color: var(--primary-1);
+  width: 75vw;
+  border: 2px solid red;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  h1{
+    margin: 0px;
+  }
+}

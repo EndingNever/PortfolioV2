@@ -10,7 +10,8 @@
     align-items: center;
     justify-content: center;
     .navbar-items{
-      border: 2px solid var(--red);
+      // border: 2px solid var(--primary-4);
+      background: var(--primary-4);
       border-radius: 50%;
       height: 50px;
       margin-bottom: 20px;

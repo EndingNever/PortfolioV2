@@ -1,7 +1,19 @@
+@import url(https://www.fontspace.com/citycrew-font-f69607);
+
 :root{
   --red: #7D272B;
   --green: #192818;
   --gray: #98A8A1;
   --gold: #AD8F3F;
   --tan: #E1BB75;
+  --primary-0: #363278;
+  --primary-1: #9291A5;
+  --primary-2: #605D8F;
+  --primary-3: #171361;
+  --primary-4: #080449;
+}
+
+body{
+  background-color: var(--primary-0);
+  font-family: "CityCrew";
 }
