@@ -1,5 +1,6 @@
 .body-container {
   width: 100vw;
+  max-width: 100%;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -19,17 +20,16 @@
     justify-content: center;
     font-size: 4vw;
     h1 {
-      // animation: border-pulsate 0.7s ease-in-out infinite alternate;
-      // animation: pulsate 0.5s ease-in-out infinite alternate;
-      border: 0.2rem solid #fff;
+      border: 0.2rem solid #e092ff69;
+      // border: 0.1rem solid #fff;
       border-radius: 2rem;
       padding: 0.4em;
-      // box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe, 0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+      // box-shadow: 0 0 0.0rem #fff, 0 0 0.0rem #fff, 0 0 2rem #bc13fe, 0 0 0.4rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+       // boxShadow:  "0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe, 0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe",
       margin: 0px;
     }
   }
 }
-
 .neon-text {
   color: #fff;
   font-family: "Yellowtail", sans-serif;
@@ -46,27 +46,4 @@
   //     0 0 92px #f09,
   //     0 0 102px #f09,
   //     0 0 151px #f09;
-}
-
-@keyframes pulsate {
-  100% {
-    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #bc13fe,
-      0 0 80px #bc13fe, 0 0 90px #bc13fe, 0 0 100px #bc13fe, 0 0 150px #bc13fe;
-      box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
-      0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
-  }
-  66% {
-
-  }
-
-  33%{
-
-  }
-  
-  0% {
-    text-shadow: 0 0 4px #fff, 0 0 10px #fff, 0 0 18px #fff, 0 0 38px #bc13fe,
-      0 0 73px #bc13fe, 0 0 80px #bc13fe, 0 0 94px #bc13fe, 0 0 140px #bc13fe;
-      box-shadow: 
-      inset 0 0 0.3rem #bc13fe;
-  }
 }

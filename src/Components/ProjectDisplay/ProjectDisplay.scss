@@ -1,0 +1,23 @@
+.projectDisplay-container{
+  // border: 2px solid red;
+  margin: 0px;
+  max-width: 100%;
+  width: 100vw;
+  max-width: 99%;
+  padding:0px;
+  color: #fff;
+  .image-container{
+    background-color: red;
+    max-width: 100%;
+  }
+  h1{
+    margin: 0px;
+    padding: 0px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+  p{
+    margin: 0px;
+    padding: 0px;
+  }
+}
