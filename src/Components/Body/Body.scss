@@ -4,10 +4,11 @@
   justify-content: center;
   display: flex;
   margin-right: auto;
+  height: 100vh;
   margin-left: auto;
+  cursor: default;
   .name-container {
     text-align: center;
-    background: linear-gradient(rgba(1, 10, 1, 0.865), rgba(1, 10, 1, 0.865)), url("../../wall.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -32,7 +33,7 @@
 .neon-text {
   color: #fff;
   font-family: "Yellowtail", sans-serif;
-  text-shadow: 0 0 5px #fff, 0 0 7px #fff, 0 0 16px #fff, 0 0 33px #bb13fe56, 0 0 72px #bb13fe6f, 0 0 80px #bb13fead, 0 0 85px #bb13fec6, 0 0 131px #bb13feba;
+  text-shadow: 0 0 5px #fff, 0 0 7px #fff, 0 0 16px #fff, 0 0 33px #bb13fe99, 0 0 72px #bb13fead, 0 0 80px #bb13fe6c, 0 0 85px #bb13fe27, 0 0 101px #bb13fe14;
   // text-shadow: 0 0 4px #fff
   // text-shadow:
   //     /* White glow */
