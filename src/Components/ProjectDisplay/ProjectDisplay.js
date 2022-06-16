@@ -6,6 +6,7 @@ import Navbar from '../Navbar/Navbar'
 
 const projectsForMapping = [
   {
+    id: 0,
     title: "Noom Cafe",
     github: "https://github.com/EndingNever/NoomCafe",
     siteLink: "https://endingnever.github.io/NoomCafe/",
@@ -13,6 +14,7 @@ const projectsForMapping = [
     heroPreview: ""
   },
   {
+    id: 1,
     title: "Elden Ring",
     github: "https://github.com/EndingNever/EldenRing",
     siteLink: "https://endingnever.github.io/EldenRing/",
@@ -20,9 +22,10 @@ const projectsForMapping = [
     heroPreview: ""
   },
   {
-    title: "Data Science Portfolio",
+    id: 2,
+    title: "React Card Game",
     github: "https://github.com/EndingNever/FonsecaWebsite",
-    siteLink: "https://devinfonseca.com/",
+    siteLink: "https://endingnever.github.io/ReactGame/",
     screenshot: "",
     heroPreview: ""
   }
@@ -31,16 +34,20 @@ const projectsForMapping = [
 export default function ProjectDisplay() {
   return (
     <div className='projectDisplay-container'>
-      <ProjectsHeader>Projects</ProjectsHeader>
+      <div className="projects-header-neon">
+        <a href="#select-projects">
+          <ProjectsHeader> Projects</ProjectsHeader>
+        </a>
+      </div>
       <div className="project-container">
         <img src={noomPreview} alt="" />
       </div>
-      <div className="select-projects">
+      <div id='select-projects' className="select-projects">
         {projectsForMapping.map((project) => (
-          <div className="project">
+          <div className="project" key={project.id}>
             <h1>{project.title}</h1>
-            <a>{project.siteLink}</a>
-            <a>{project.github}</a>
+            <p>{project.siteLink}</p>
+            <p>{project.github}</p>
           </div>
         ))}
       </div>
