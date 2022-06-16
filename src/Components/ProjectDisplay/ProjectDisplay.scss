@@ -6,25 +6,6 @@
   max-width: 100%;
   padding: 0px;
   color: #fff;
-  .project-container {
-    border: 2px solid red;
-    margin: auto;
-    width: 75vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    img{
-      width: 100%;
-    }
-    // .image-container {
-    //   border: 2px solid white;
-    //   width: 50%;
-    // }
-    // .text-container{
-    //   border: 2px solid white;
-    //   width: 50%;
-    // }
-  }
   h1 {
     margin: 0px;
     padding: 0px;
@@ -34,5 +15,21 @@
   p {
     margin: 0px;
     padding: 0px;
+  }
+  .project-container {
+    // border: 2px solid red;
+    margin: auto;
+    margin-top: 20px;
+    width: 75vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 100%;
+    }
+  }
+  .select-projects {
+    margin-top: 120px;
+    border: 2px solid red;
   }
 }
