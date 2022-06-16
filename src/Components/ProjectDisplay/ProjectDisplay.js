@@ -1,6 +1,7 @@
 import React from 'react'
 import "./ProjectDisplay.scss"
 import noomPreview from "../../eznoompreview.gif"
+import { ProjectsHeader } from '../../Styled'
 import Navbar from '../Navbar/Navbar'
 
 const projectsForMapping = [
@@ -30,6 +31,7 @@ const projectsForMapping = [
 export default function ProjectDisplay() {
   return (
     <div className='projectDisplay-container'>
+      <ProjectsHeader>Projects</ProjectsHeader>
       <div className="project-container">
         <img src={noomPreview} alt="" />
       </div>
@@ -41,9 +43,6 @@ export default function ProjectDisplay() {
             <a>{project.github}</a>
           </div>
         ))}
-        {/* <div className="project">1</div>
-        <div className="project">2</div>
-        <div className="project">3</div> */}
       </div>
     </div>
   )
