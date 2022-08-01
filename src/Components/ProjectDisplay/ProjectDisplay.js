@@ -1,8 +1,9 @@
-import React from 'react'
+import React, {useState } from 'react'
 import "./ProjectDisplay.scss"
 import noomPreview from "../../eznoompreview.gif"
 import { ProjectsHeader } from '../../Styled'
 import Navbar from '../Navbar/Navbar'
+
 
 const projectsForMapping = [
   {
@@ -32,6 +33,7 @@ const projectsForMapping = [
 ]
 
 export default function ProjectDisplay() {
+  const [projectPreview, setProjectPreview] = useState(noomPreview)
   return (
     <div className='projectDisplay-container'>
       <div className="projects-header-neon">
@@ -40,7 +42,7 @@ export default function ProjectDisplay() {
         </a>
       </div>
       <div className="project-container">
-        <img src={noomPreview} alt="" />
+        <img src={projectPreview} alt="" />
       </div>
       <div id='select-projects' className="select-projects">
         {projectsForMapping.map((project) => (
