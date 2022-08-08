@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const ProjectsHeader = styled.h1`
 font-family: "Yellowtail", sans-serif;
 /* border: 0.2rem solid #bc13fe; */
-cursor: pointer; //TODO Make this element an anchor tag that jumps to the projects
+cursor: pointer;
 position: absolute;
 font-size: 34px;
 margin-left: 24px;
