@@ -16,6 +16,7 @@
 body{
   /* background-color: var(--primary-0); */
   background: linear-gradient(rgba(3, 1, 10, 0.7), rgba(3, 1, 10, 0.7)), url("./wall222.jpg");
+  color: white;
   /* background-repeat: no-repeat; */
   background-position: center;
   margin: 0px;
