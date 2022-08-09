@@ -7,8 +7,9 @@ const textVariant = {
   neon: {
     textShadow: "0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #bc13fe,0 0 82px #bc13fe, 0 0 92px #bc13fe, 0 0 102px #bc13fe, 0 0 151px #bc13fe",
     transition: {
-      duration: 0.7,
-      yoyo: 10,
+      duration: 1,
+      repeat: Infinity,
+      repeatType: "reverse"
     }
   },
   neonBox: {
@@ -16,7 +17,8 @@ const textVariant = {
     textShadow: "0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #bc13fe, 0 0 82px #bc13fe, 0 0 92px #bc13fe, 0 0 102px #bc13fe, 0 0 151px #bc13fe",
     transition: {
       duration: 1,
-      yoyo: Infinity,
+      repeat: Infinity,
+      repeatType: "reverse"
     }
   }
 }

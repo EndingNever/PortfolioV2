@@ -1,7 +1,17 @@
 .resume-container{
   margin-top: 40px;
-  iframe{
-    margin-top: 200px;
-    width: 100%;
+  margin-bottom: 40px;
+  .resume{
+    display: grid;
+    justify-items: center;
+    iframe{
+      margin-top: 200px;
+      height: 90vh;
+      width: 40vw;
+    }
   }
+}
+
+@media screen and (max-width: 1080px) {
+  
 }

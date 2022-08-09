@@ -50,14 +50,14 @@ export default function ProjectDisplay() {
           <ProjectsHeader>Projects</ProjectsHeader>
         </a>
       </div>
-      <div className="project-container">
+      <div id='select-projects' className="project-container">
         <img src={projectPreview} alt="" />
       </div>
-      <div id='select-projects' className="select-projects">
+      <div  className="select-projects">
         {projectsForMapping.map((project) => (
           <div onClick={()=>setProjectPreview(project.heroPreview)} className="project" key={project.id} style={ projectPreview === project.heroPreview ? {boxShadow: " 0 0 0.2rem #363278, 0 0 0.2rem #363278, 0 0 2rem #363278, 0 0 0.8rem #363278, 0 0 2.8rem #363278, inset 0 0 1.3rem #363278", outline: "2px solid #363278"} : null}>
             <h1>{project.title}</h1>
-            <p>{project.info}</p>
+            {project.info}
             <p><a href={project.siteLink} target='_blank'>Live Page</a></p>
             <p><a href={project.github} target='_blank'>View on Github </a></p>
           </div>
