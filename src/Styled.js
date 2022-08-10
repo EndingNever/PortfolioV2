@@ -5,8 +5,9 @@ font-family: "Yellowtail", sans-serif;
 /* border: 0.2rem solid #bc13fe; */
 cursor: pointer;
 position: absolute;
-font-size: 34px;
-margin-left: 24px;
+font-size: 1.7vw;
+/* margin-top: 40px;
+margin-left: 24px; */
 /* top: 1000px; */
 transform: rotate(-40deg);
 display: inline-block;
@@ -18,4 +19,9 @@ box-shadow:  0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #0fa, 0 0 0.8rem #0fa, 0
     /* Pink Text, Green Border */
      /* box-shadow:  0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #0fa, 0 0 0.8rem #0fa, 0 0 2.8rem #0fa, inset 0 0 1.3rem #0fa;
     text-shadow:  0 0 7px #bc13fe, 0 0 10px #bc13fe, 0 0 21px #bc13fe,   0 0 42px #bc13fe,     0 0 82px #bc13fe,     0 0 92px #bc13fe,     0 0 102px #bc13fe,     0 0 151px #bc13fe;  */
+
+@media screen and (max-width: 600px){
+    font-size: 4vw;
+    margin-left: 12px;
+    }
 `
