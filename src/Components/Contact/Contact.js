@@ -17,7 +17,7 @@ export default function Contact() {
           <div className="form-group">
             <textarea placeholder="Your Message" className="form-control" name="message" rows="10" required></textarea>
           </div>
-          <button type="submit" className="btn btn-lg btn-dark btn-block">Send Email</button>
+          <button type="submit" className="btn btn-lg btn-dark btn-block">Send Message (opens a new link)</button>
         </form>
       </div>
     </div>

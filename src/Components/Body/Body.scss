@@ -4,9 +4,9 @@
   align-items: center;
   justify-content: center;
   display: flex;
-  margin-right: auto;
+  // margin-right: auto;
   height: 100vh;
-  margin-left: auto;
+  // margin-left: auto;
   cursor: default;
   .name-container {
     text-align: center;
@@ -25,15 +25,34 @@
       border-radius: 2rem;
       padding: 0.4em;
       // box-shadow: 0 0 0.0rem #fff, 0 0 0.0rem #fff, 0 0 2rem #bc13fe, 0 0 0.4rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
-       // boxShadow:  "0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe, 0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe",
+      // boxShadow:  "0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe, 0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe",
       margin: 0px;
+    }
+  }
+  .social-media {
+    position: absolute;
+    // outline: 2px solid red;
+    width: 30%;
+    height: 25%;
+    top: 70%;
+    a, a:visited{
+      text-decoration: inherit;
+    }
+    .linkedin {
+      transform: rotate(0deg);
+      right: 0px;
+    }
+    .github {
+      transform: rotate(0deg);
     }
   }
 }
 .neon-text {
   color: #fff;
   font-family: "Yellowtail", sans-serif;
-  text-shadow: 0 0 5px #fff, 0 0 7px #fff, 0 0 16px #fff, 0 0 33px #bb13fe99, 0 0 72px #bb13fead, 0 0 80px #bb13fe6c, 0 0 85px #bb13fe27, 0 0 101px #bb13fe14;
+  text-shadow: 0 0 5px #fff, 0 0 7px #fff, 0 0 16px #fff, 0 0 33px #bb13fe99,
+    0 0 72px #bb13fead, 0 0 80px #bb13fe6c, 0 0 85px #bb13fe27,
+    0 0 101px #bb13fe14;
   // text-shadow: 0 0 4px #fff
   // text-shadow:
   //     /* White glow */
@@ -48,8 +67,8 @@
   //     0 0 151px #f09;
 }
 
-@media screen and (max-width: 420px){
-  h1{
+@media screen and (max-width: 420px) {
+  h1 {
     font-size: 15vw;
   }
 }
