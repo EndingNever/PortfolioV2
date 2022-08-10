@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.83191830.css",
-    "main.js": "/static/js/main.9dbc8047.js",
+    "main.css": "/static/css/main.d84fb63a.css",
+    "main.js": "/static/js/main.4d337345.js",
     "static/js/787.f6c53ef9.chunk.js": "/static/js/787.f6c53ef9.chunk.js",
+    "static/media/teslaPreview.gif": "/static/media/teslaPreview.b4908925971b790d0326.gif",
     "static/media/eznoompreview.gif": "/static/media/eznoompreview.80f69de74c0fed0187b4.gif",
     "static/media/noomPreview.gif": "/static/media/noomPreview.84e00ebca0617f6f56f9.gif",
     "static/media/noomcafe.png": "/static/media/noomcafe.ce60114772769cc098f6.png",
     "static/media/wall222.jpg": "/static/media/wall222.44d1439110ea03bbd26e.jpg",
+    "static/media/cardGame.gif": "/static/media/cardGame.c82a5cb48a86fd0e6505.gif",
+    "static/media/ResumeFinal.pdf": "/static/media/ResumeFinal.5c27d658d5822a1148a8.pdf",
     "index.html": "/index.html",
-    "main.83191830.css.map": "/static/css/main.83191830.css.map",
-    "main.9dbc8047.js.map": "/static/js/main.9dbc8047.js.map",
+    "main.d84fb63a.css.map": "/static/css/main.d84fb63a.css.map",
+    "main.4d337345.js.map": "/static/js/main.4d337345.js.map",
     "787.f6c53ef9.chunk.js.map": "/static/js/787.f6c53ef9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83191830.css",
-    "static/js/main.9dbc8047.js"
+    "static/css/main.d84fb63a.css",
+    "static/js/main.4d337345.js"
   ]
 }
