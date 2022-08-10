@@ -9,7 +9,7 @@ export default function Contact() {
         <ProjectsHeader>Get In Touch</ProjectsHeader>
       </div>
       <div className="form-container">
-        <form target="_blank" action="https://formsubmit.co/your@email.com" method="POST">
+        <form target="_blank" action="https://formsubmit.co/892f02cd745c69ebcd1bfc26e36baf43" method="POST">
           <div className="input-container">
             <input type="text" name="name" className="form-control" placeholder="Full Name" required />
             <input type="email" name="email" className="form-control" placeholder="Email Address" required />

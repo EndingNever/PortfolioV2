@@ -31,7 +31,7 @@ const projectsForMapping = [
     id: 2,
     title: "React Card Game",
     info: kingCornerInfo,
-    github: "https://github.com/EndingNever/FonsecaWebsite",
+    github: "https://github.com/EndingNever/ReactGame",
     siteLink: "https://endingnever.github.io/ReactGame/",
     screenshot: "",
     heroPreview: cardGame
