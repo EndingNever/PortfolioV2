@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Body />
       <ProjectDisplay />
-      <Resume />
+      {/* <Resume /> */}
       <Contact />
     </div>
   );
