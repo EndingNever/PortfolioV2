@@ -4,7 +4,7 @@ import { ProjectsHeader } from '../../Styled'
 
 export default function Contact() {
   return (
-    <div className='contact'>
+    <div className='contact' >
       <div className="header">
         <ProjectsHeader className='getInTouch'>Get In Touch</ProjectsHeader>
       </div>
