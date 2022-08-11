@@ -7,6 +7,9 @@
   .resume {
     display: grid;
     justify-items: center;
+    .resume-image{
+      display: none;
+    }
     iframe,
     embed {
       margin-top: 200px;
