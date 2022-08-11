@@ -4,14 +4,14 @@
   .resume{
     display: grid;
     justify-items: center;
-    iframe{
+    iframe, object{
       margin-top: 200px;
       height: 90vh;
-      width: 40vw;
+      min-width: 60vw;
     }
   }
 }
 
-@media screen and (max-width: 1080px) {
+// @media screen and (max-width: 1080px) {
   
-}
+// }

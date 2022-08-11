@@ -31,18 +31,21 @@
   }
   .social-media {
     position: absolute;
-    // outline: 2px solid red;
     width: 30%;
     height: 25%;
     top: 70%;
-    a, a:visited{
-      text-decoration: inherit;
+    a,
+    a:visited {
+      color: inherit;
     }
     .linkedin {
       transform: rotate(0deg);
+      border-radius: 20px;
       right: 0px;
+      // font-size: 2vw;
     }
     .github {
+      border-radius: 20px;
       transform: rotate(0deg);
     }
   }
@@ -70,5 +73,14 @@
 @media screen and (max-width: 420px) {
   h1 {
     font-size: 15vw;
+  }
+  .body-container {
+    .social-media {
+      position: absolute;
+      // outline: 2px solid red;
+      width: 75%;
+      height: 15%;
+      top: 70%;
+    }
   }
 }

@@ -34,7 +34,9 @@ export default function Body() {
         <a href="https://www.linkedin.com/in/fabianvillasenor/" target="_blank">
           <ProjectsHeader className="linkedin">LinkedIn</ProjectsHeader>
         </a>
-        <ProjectsHeader className="github">Github</ProjectsHeader>
+        <a href="https://github.com/endingnever" target="_blank">
+          <ProjectsHeader className="github">Github</ProjectsHeader>
+        </a>
       </div>
     </div>
   )

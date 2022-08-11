@@ -15,7 +15,7 @@ export default function Contact() {
             <input type="email" name="email" className="form-control" placeholder="Email Address" required />
           </div>
           <div className="form-group">
-            <textarea placeholder="Your Message" className="form-control" name="message" rows="10" required></textarea>
+            <textarea placeholder="Your Message" className="form-control" name="message" cols="43" rows="10" required></textarea>
           </div>
           <button type="submit" className="btn btn-lg btn-dark btn-block">Send Message (opens a new link)</button>
         </form>
