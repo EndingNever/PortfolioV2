@@ -9,7 +9,7 @@ export default function Resume() {
     <div className='resume-container'>
       <ProjectsHeader>Resume</ProjectsHeader>
       <div className="resume">
-        <iframe className='iframe' title="Resume" src={process.env.PUBLIC_URL + "/files/ResumeFinal.pdf"} frameBorder="0">
+        <iframe className='iframe' title="Resume" src={process.env.PUBLIC_URL + "/files/Resume3.pdf"} frameBorder="0">
         </iframe>
         {/* <embed src={process.env.PUBLIC_URL + "./ResumeFinal.pdf"} type="application/pdf" width="100%" height="100%">
            <p>Your web browser doesn't have a PDF plugin.
