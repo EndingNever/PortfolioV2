@@ -36,24 +36,20 @@
   }
   .select-projects {
     height: 25vh;
-    margin-top: 120px;
     display: flex;
-    align-items: center;
+    // align-items: center;
     justify-content: center;
-    margin: auto;
+    margin-top: 3rem;
     .project {
       border-radius: 20px;
       padding: 8px;
       cursor: pointer;
-      margin-top: 40px;
       margin-left: 20px;
       margin-right: 20px;
+      height: 100%;
       width: 30%;
       text-align: center;
-      .currentProject {
-        box-shadow: 0 0 0.2rem #363278, 0 0 0.2rem #363278, 0 0 2rem #363278,
-          0 0 0.8rem #363278, 0 0 2.8rem #363278, inset 0 0 1.3rem #363278;
-        outline: 2px solid #363278;
+      .project-info{
       }
       h1 {
         margin: 0px;

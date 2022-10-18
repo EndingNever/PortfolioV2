@@ -2,12 +2,13 @@ import React, { useState } from 'react'
 import "./ProjectDisplay.scss"
 import noomPreview from "../../eznoompreview.gif"
 import teslaPreview from "../../teslaPreview.gif"
-import cardGame from "../../cardGame.gif"
+import mixellenceGif from "../../mixellenceGif.gif"
+// import cardGame from "../../cardGame.gif"
 import { ProjectsHeader } from '../../Styled'
 
-const aMartinez = <p>Collaboration with <a href='https://www.linkedin.com/in/alfonso-martinez-a6179a137/' target='_blank'>Alfonso Martinez</a>, UX/UI designer. Alfonso created a beautiful page and I was able to create the page using React, complete with a dark mode.</p>
-const teslaInfo = <p>Group project with 3 other team members. We recreated the Tesla shop page. A set of product data was recreated for the products page, and the project involved working in a team on Github. </p>
-const kingCornerInfo = <p>Kings Corner card game was recreated with React. A card can only be placed on top of another which is 1 more than its value. Relies heavily on Javascript and React state. Each deck is an array, for a total of 11 arrays which states are managed by the React useState hook. </p>
+const aMartinez = <p className='project-info'>Collaboration with <a href='https://www.linkedin.com/in/alfonso-martinez-a6179a137/' target='_blank'>Alfonso Martinez</a>, UX/UI designer. Alfonso created a beautiful page and I was able to create the page using React, complete with a dark mode.</p>
+const teslaInfo = <p className='project-info'>Group project with 3 other team members. We recreated the Tesla shop page. A set of product data was recreated for the products page, and the project involved working in a team on Github. </p>
+const mixellenceInfo = <p className='project-info'>Kings Corner card game recreated with React. A card can only be placed on top of another which is 1 more than its value. Total of 11 arrays, states are managed by the React useState hook. </p>
 const projectsForMapping = [
   {
     id: 0,
@@ -27,11 +28,11 @@ const projectsForMapping = [
   },
   {
     id: 2,
-    title: "React Card Game",
-    info: kingCornerInfo,
-    github: "https://github.com/EndingNever/ReactGame",
-    siteLink: "https://endingnever.github.io/ReactGame/",
-    heroPreview: cardGame
+    title: "Mixellence",
+    info: mixellenceInfo,
+    github: "https://github.com/OxanaSF/mixellence",
+    siteLink: "https://mixellence.netlify.app/",
+    heroPreview: mixellenceGif
   }
 ]
 
