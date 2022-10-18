@@ -15,7 +15,6 @@ const projectsForMapping = [
     info: aMartinez,
     github: "https://github.com/EndingNever/NoomCafe",
     siteLink: "https://endingnever.github.io/NoomCafe/",
-    screenshot: "",
     heroPreview: noomPreview
   },
   {
@@ -23,8 +22,7 @@ const projectsForMapping = [
     title: "Tesla Shop",
     info: teslaInfo,
     github: "https://github.com/EndingNever/groupproject",
-    siteLink: "https://syntheticdesigner.github.io/tesla-group-project/",
-    screenshot: "",
+    siteLink: "https://endingnever.github.io/groupproject/",
     heroPreview: teslaPreview
   },
   {
@@ -33,7 +31,6 @@ const projectsForMapping = [
     info: kingCornerInfo,
     github: "https://github.com/EndingNever/ReactGame",
     siteLink: "https://endingnever.github.io/ReactGame/",
-    screenshot: "",
     heroPreview: cardGame
   }
 ]
@@ -41,10 +38,6 @@ const projectsForMapping = [
 
 export default function ProjectDisplay() {
   const [projectPreview, setProjectPreview] = useState(teslaPreview);
-
-  const setPreview = (x) => {
-    setProjectPreview(x)
-  }
 
   return (
     <div className='projectDisplay-container'>

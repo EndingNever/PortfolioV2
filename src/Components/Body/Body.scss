@@ -4,9 +4,7 @@
   align-items: center;
   justify-content: center;
   display: flex;
-  // margin-right: auto;
   height: 100vh;
-  // margin-left: auto;
   cursor: default;
   .name-container {
     text-align: center;
@@ -21,11 +19,8 @@
     font-size: 4vw;
     h1 {
       border: 0.1rem solid #bc13fe;
-      // border: 0.1rem solid #fff;
       border-radius: 2rem;
       padding: 0.4em;
-      // box-shadow: 0 0 0.0rem #fff, 0 0 0.0rem #fff, 0 0 2rem #bc13fe, 0 0 0.4rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
-      // boxShadow:  "0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe, 0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe",
       margin: 0px;
     }
   }
@@ -42,7 +37,6 @@
       transform: rotate(0deg);
       border-radius: 20px;
       right: 0px;
-      // font-size: 2vw;
     }
     .github {
       border-radius: 20px;
@@ -77,7 +71,6 @@
   .body-container {
     .social-media {
       position: absolute;
-      // outline: 2px solid red;
       width: 75%;
       height: 15%;
       top: 70%;

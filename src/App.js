@@ -1,7 +1,6 @@
 import './App.css';
 import Body from './Components/Body/Body';
 import Contact from './Components/Contact/Contact';
-import Navbar from './Components/Navbar/Navbar';
 import ProjectDisplay from './Components/ProjectDisplay/ProjectDisplay';
 import Resume from './Components/Resume/Resume';
 

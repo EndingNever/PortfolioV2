@@ -20,12 +20,13 @@
       display: none;
     }
   }
+  a {
+    color: inherit;
+  }
 }
 
 @media screen and (max-width: 900px) {
   .resume-container {
-    // margin-top: 40px;
-    // margin-bottom: 40px;
     .download {
       display: block;
       transform: rotate(40deg);
@@ -34,26 +35,26 @@
     }
     .resume {
       margin-top: 100px;
-      // outline: 2px solid red;
-      embed {
+      .iframe {
         display: none;
       }
       .resume-image {
+        display: block;
         margin-top: 100px;
         position: relative;
-        // border: 2px solid purple;
         .angle {
           width: 6vw;
-          // border: 2px solid green;
           position: absolute;
-          font-size: 5vw;
           color: black;
-          // margin-top: 50%;
           top: 50%;
           width: 100%;
           display: flex;
           justify-content: space-between;
+          font-size: 2rem;
           .left {
+            display: flex;
+            align-items: center;
+            justify-content: center;
             background-color: rgba(0, 0, 0, 0.311);
             height: 5vh;
             width: 4vw;
@@ -62,6 +63,9 @@
             }
           }
           .right {
+            display: flex;
+            align-items: center;
+            justify-content: center;
             background-color: rgba(0, 0, 0, 0.311);
             height: 5vh;
             width: 4vw;
@@ -71,7 +75,6 @@
           }
         }
         img {
-          // margin-top: 100px;
           display: block;
           width: 60vw;
         }
